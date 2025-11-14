@@ -10,5 +10,10 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "functions": {
+    "app.py": {
+      "excludeFiles": "{.venv/**,__pycache__/**,.git/**,.pytest_cache/**,*.pyc,*.pyo}"
+    }
+  }
 }
